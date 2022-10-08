@@ -1,0 +1,4 @@
+.config/
+bot/__pycache__/
+__pycache__/
+mindnight-venv/
