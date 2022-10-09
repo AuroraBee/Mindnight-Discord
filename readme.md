@@ -15,6 +15,7 @@ Here, N/2+1 players have to be selected to participate in the **Node**.
 After a *proposition* is made, the players have to vote to accept or reject the *proposition*.
 If the *proposition* is denied, the next player in line has to make a *proposition*.
 A **Node** can only have 4 denied *propositions* before it is automatically accepted.
+This is called a Hammer. The Hammer may be passed to the next player in line.
 If the *proposition* is accepted, the participants have to vote to hack or secure the **Node**.
 **Agents** can only secure **Nodes** and **Hackers** may choose to hack or secure **Nodes**.
 If the majority of **Nodes** are hacked, the **Hackers** win.
@@ -68,6 +69,11 @@ If x is not a valid game number, or 0, a random game is selected.
 The `/leave` command leaves the game that the member is in.
 The command can only be used by members of the server.
 The command removes the member from the `Mindnight x` role.
+
+#### `/pass`
+
+The `/pass` command passes the `proposition` to the next player in line.
+The command can only be used by the whose turn it is.
 
 #### `/propose x`
 
